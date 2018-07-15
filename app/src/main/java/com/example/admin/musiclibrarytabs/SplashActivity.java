@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent startActivityIntent = new Intent(SplashActivity.this, MusicActivity.class);
+                Intent startActivityIntent = new Intent(SplashActivity.this, LoginAcitvity.class);
                 startActivity(startActivityIntent);
                 SplashActivity.this.finish();
             }
